@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		39A6BA2822B769E40046B053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A6BA2722B769E40046B053 /* AppDelegate.swift */; };
-		39A6BA2A22B769E40046B053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A6BA2922B769E40046B053 /* ViewController.swift */; };
+		39A6BA2A22B769E40046B053 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A6BA2922B769E40046B053 /* QRViewController.swift */; };
 		39A6BA2D22B769E40046B053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A6BA2B22B769E40046B053 /* Main.storyboard */; };
 		39A6BA2F22B769E50046B053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A6BA2E22B769E50046B053 /* Assets.xcassets */; };
 		39A6BA3222B769E50046B053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A6BA3022B769E50046B053 /* LaunchScreen.storyboard */; };
+		39A6BA3A22B76CAD0046B053 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A6BA3922B76CAD0046B053 /* ScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		39A6BA2422B769E40046B053 /* QRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A6BA2722B769E40046B053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39A6BA2922B769E40046B053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39A6BA2922B769E40046B053 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
 		39A6BA2C22B769E40046B053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39A6BA2E22B769E50046B053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39A6BA3122B769E50046B053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39A6BA3322B769E50046B053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39A6BA3922B76CAD0046B053 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				39A6BA2722B769E40046B053 /* AppDelegate.swift */,
-				39A6BA2922B769E40046B053 /* ViewController.swift */,
+				39A6BA2922B769E40046B053 /* QRViewController.swift */,
 				39A6BA2B22B769E40046B053 /* Main.storyboard */,
 				39A6BA2E22B769E50046B053 /* Assets.xcassets */,
 				39A6BA3022B769E50046B053 /* LaunchScreen.storyboard */,
 				39A6BA3322B769E50046B053 /* Info.plist */,
+				39A6BA3922B76CAD0046B053 /* ScannerViewController.swift */,
 			);
 			path = QRCode;
 			sourceTree = "<group>";
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39A6BA2A22B769E40046B053 /* ViewController.swift in Sources */,
+				39A6BA2A22B769E40046B053 /* QRViewController.swift in Sources */,
+				39A6BA3A22B76CAD0046B053 /* ScannerViewController.swift in Sources */,
 				39A6BA2822B769E40046B053 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9R4YX2SFBQ;
 				INFOPLIST_FILE = QRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9R4YX2SFBQ;
 				INFOPLIST_FILE = QRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
